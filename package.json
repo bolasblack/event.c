@@ -1,0 +1,18 @@
+{
+  "name": "event.c",
+  "version": "0.0.1",
+  "repo": "bolasblack/event.c",
+  "description": "Simple PubSub Implementation",
+  "keywords": ["event", "pubsub"],
+  "license": "MIT",
+  "src": [
+    "src/event.c",
+    "src/event.h"
+  ],
+  "dependencies": {
+    "bolasblack/dict": "0.0.1",
+    "clibs/list": "0.0.8"
+  },
+  "development": {
+  }
+}
