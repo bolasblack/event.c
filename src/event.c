@@ -55,9 +55,11 @@ void event_register(char *event_name, EventCallback fn) {
   list_rpush(callbacks, node);
 }
 
-void event_init() {
+dict_t* event_init() {
   s_callbacks = dict_new();
   s_callbacks->free = free_callbacks;
+
+  return s_callbacks;
 }
 
 void event_deinit() {

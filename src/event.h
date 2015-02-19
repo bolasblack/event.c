@@ -10,7 +10,7 @@ typedef void (*EventCallback)(void *context);
 void event_emit(char *event_name, void *data);
 void event_register(char *event_name, EventCallback fn);
 void event_unregister(char *event_name, EventCallback fn);
-void event_init();
+dict_t* event_init();
 void event_deinit();
 
 #endif
