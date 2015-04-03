@@ -10,7 +10,7 @@
     "src/event.h"
   ],
   "dependencies": {
-    "bolasblack/dict": "0.0.1",
+    "bolasblack/dict.c": "0.0.2",
     "clibs/list": "0.0.8"
   },
   "development": {

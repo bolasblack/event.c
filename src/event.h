@@ -2,8 +2,8 @@
 #define _EVENT_H
 
 #include <string.h>
-#include "dict/dict.h"
-#include "list/list.h"
+#include <dict.c/dict.h>
+#include <list/list.h>
 
 typedef void (*EventCallback)(void *context);
 
